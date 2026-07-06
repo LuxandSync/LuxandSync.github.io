@@ -126,7 +126,7 @@
                 border-radius: var(--radius-pill);
                 display: flex;
                 gap: 4px;
-                padding: 6px 8px;
+                padding: 6px 2;
             }
             .nav-menu a {
                 padding: 8px 16px;
@@ -192,7 +192,7 @@
                 position: relative;
                 z-index: 2;
                 padding: 0 px;
-                padding-top: 120px;
+                padding-top: 20px;
             }
             .hero-title-black {
                 font-size: clamp(60px, 8.2vw, 118px);
@@ -232,17 +232,17 @@
 
             /* ── PARAMETRIC / VALUE PROP ── */
             .section-parametric {
-                padding: 100px 56px 0;
-                min-height: 100vh;
+                padding: 100px 20px 0;
+                min-height: 60vh;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                gap: 48px;
+                gap: 20px;
 
             }
             .parametric-text h5 {
-                font-size: clamp(20px, 2vw, 28px);
+                font-size: clamp(29px, 2vw, 28px);
                 font-weight: 500;
                 letter-spacing: -0.01em;
                 line-height: 130%;
@@ -716,7 +716,7 @@
             }
             .footer-bottom {
                 border-top: 2px solid var(--dark);
-                padding-top: 32px;
+                padding-top: 10px;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
@@ -726,6 +726,7 @@
             .footer-left {
                 display: flex;
                 flex-direction: column;
+                align-items: center;
                 gap: 12px;
             }
             .footer-left small {
@@ -747,7 +748,7 @@
             }
             .footer-social {
                 display: flex;
-                gap: 16px;
+                gap: 40x;
             }
             .footer-social a {
                 font-size: 14px;
@@ -849,13 +850,13 @@
     <body>
         <!-- PRELOADER -->
         <div id="preloader">
-            <img src="nav bar_yellow.png" alt="Lux&Sync" class="logo-loader">
+            <img src="INICIO.png" alt="Lux&Sync" class="logo-loader">
         </div>
 
         <!-- NAV -->
         <nav class="topbar" id="topbar">
             <a class="logo-link" href="#">
-                <img src="nav bar_yellow.png" alt="Mi logo" class="logo">
+                <img src="nav_bar_yellow.png" alt="Mi logo" class="logo">
             </a>
 
             <div class="nav-menu">
@@ -877,43 +878,37 @@
                 </h1>
             </div>
         </section>
-
         <!-- PARAMETRIC VALUE PROP -->
         <section class="section-parametric">
             <div class="parametric-text fade-up">
                 <h5>
-                    Founded by architects to help architects create better-lit
+                    Founded by architects to help architects <br />create better-lit
                     spaces with ease. <br />Architectural lighting partner.
-                    <br />We are currently shaping our new online platform.
-                    <br /> In the meantime, let’s collaborate: hello@luxandsync.com
                 </h5>
+                <div class="parametric-text fade-up">
+                    <h5>
+                        <br />We are currently shaping our new online platform.
+                        <br /> In the meantime, let’s collaborate: hello@luxandsync.com
+                    </h5>
             </div>
         </section>
 
             <div class="footer-bottom fade-up">
                 <div class="footer-left">
-                    <svg
-                        viewBox="0 0 128 29"
-                        fill="none"
-                        style="width: 100px"
-                        xmlns="http://www.w3.org/2000/svg"
-                    >
-
                         <text
                             x="0"
-                            y="22"
+                            y="50"
                             font-size="12"
                             fill="#202022"
                             font-family="Inter,sans-serif"
                             font-weight="600"
                         </text>
-                    <small>© 2026 Lux&Sync. All rights reserved.</small>
+                    <small>©2026 Lux&Sync. All rights reserved.</small>
                 </div>
                 <div class="footer-social">
                     <a href="https://www.instagram.com/lux__sync/" aria-label="Instagram">IG</a>
                     <a href="https://www.linkedin.com/company/lux-and-sync/" aria-label="LinkedIn">IN</a>
                 </div>
-            </div>
         </section>
 
         <script>
